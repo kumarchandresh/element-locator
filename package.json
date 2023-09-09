@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "clean": "rimraf out"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.245",
+    "copy-webpack-plugin": "^11.0.0",
+    "rimraf": "^5.0.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-merge": "^5.9.0"
+  }
+}
